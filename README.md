@@ -114,11 +114,14 @@ Caso comece a informar que os pacotes instalados são de versão anterior a espe
 
 
 
-Como fazer para rodar 
+## COMO FAZER PARA RODAR
 
 Componentes para instalar Docker
 
 No banco de dados você ira precisar fazer
+
+## CASO NÃO FOR CLONAR
+
 ### Preparações
 
 Inicialmente é necessário instalar o `docker` e o `prisma`.
@@ -133,22 +136,24 @@ npx prisma
 //Cria a pasta prisma no projeto
 npx prisma init
 ```
-Passos de cima CASO NÃO FOR CLONAR
+## SE CLONAR NÃO É NECESSARIO FAZER O PASSO A PASSO DE CIMA
 
-depois de fazer o migrate subir o banco
+Banco de Dados
+Necessario fazer para poder subir o banco
+
+## Subir o banco
 
 docker compose up -d
 
-Apos subir o banco
+## Apos subir o banco
 
-npx prisma migrate dev
+npx prisma migrate dev (Migração para poder fazer as tabelas obrigatorias)
 
-
-depois disso vc ira fazer
+## Logo depois você ira fazer o banco rodar
 
 npm run dev
 
-Apos isso ira fazer umas mudanças no app
+## Apos isso ira fazer umas mudanças no app
 
 primeiramente abrir o CMD e pegar o IPV4
 
@@ -158,18 +163,16 @@ depois ir no arquivo App.jsx e alterar
  */
 export const ipContext = createContext('172.20.10.6')
 
-apos é so iniciar
+## Apos esta mudança é so iniciar o app
 npx expo start
 
-Caso de erro rode 
+## Caso apresente algum erro rode
 
 npm i
 
-apos
-
 npx expo fix
 
-Para poder ver o banco de dados urilize
+## Para poder ver o banco de dados urilize
 
 npx prisma studio 
 

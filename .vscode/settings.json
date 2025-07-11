@@ -100,5 +100,6 @@
       "username": "postgres"
     }
   ],
-  "DockerRun.DisableDockerrc": true
+  "DockerRun.DisableDockerrc": true,
+  "DockerRun.DisableAutoGenerateConfig": true
 }
