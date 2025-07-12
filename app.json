@@ -1,8 +1,9 @@
 {
   "expo": {
+    "owner": "aliquey7272",
     "newArchEnabled": true,
     "name": "APP-CBM",
-    "slug": "APP-CBM",
+    "slug": "app193",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -45,7 +46,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "85a9b27e-8393-4951-8246-b3e192b9fc16"
+        "projectId": "0f70e8f7-aabc-469b-9e8c-d2e49d2ca9be"
       }
     }
   }
